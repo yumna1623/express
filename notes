@@ -1,0 +1,52 @@
+colon means dynamic value :id
+npm init -y
+npm install express
+npm install nodeman
+
+                                       Express JS Response Methods:
+* res.send()
+Sends response to client (browser/frontend)
+Can send multiple data types:
+Text (res.send("Hello"))
+HTML (res.send("<h1>Title</h1>"))
+Objects/Arrays (res.send({data: [...]}))
+Automatically sets Content-Type header
+Ends the response process
+
+
+* res.json()
+Standard for API responses
+Sends JSON-formatted response 
+res.json({ success: true, data: [...] })
+Only accepts JSON-serializable data (no HTML/text directly)
+Automatically sets Content-Type: application/json
+
+
+* res.jsonp
+json with padding
+CORS: cross origin resource sharing
+a secrity feature that decided by browser that which domains can access the data or share data
+express js method who can send json data to another domain
+use for cross domain request jab browser cors allow nh krta
+
+* res.redirect()
+Redirects the client to a new URL
+
+
+* res.sendFile()
+Sends a file to the client
+
+* res.download()
+express js method who can send file to client from server 
+
+* res.end()
+
+
+* res.sendStatus()
+
+* res.headersSent()
+
+* res.set()
+
+* res.get()
+
