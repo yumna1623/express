@@ -4,6 +4,8 @@ npm install express
 npm install nodeman
 
                                        Express JS Response Methods:
+                   ------------ These are used to send a response back to the client:  --------
+
 * res.send()
 Sends response to client (browser/frontend)
 Can send multiple data types:
@@ -49,4 +51,44 @@ express js method who can send file to client from server
 * res.set()
 
 * res.get()
+
+                                          Express JS REQUEST Methods:
+----------------------------   These are used to access data from the incoming request:     ------------------------------
+
+
+req.body	
+Contains parsed body (from POST/PUT) — needs middleware like express.json()
+
+req.params
+Route parameters (e.g. /user/:id)
+
+
+req.query	
+Query string parameters (e.g. /search?term=js)
+
+
+req.headers
+Access request headers
+
+req.method	
+HTTP method used (e.g., GET, POST)
+
+
+req.url
+The full request URL
+
+
+req.path	
+The route path
+
+
+req.cookies	
+Cookies (requires cookie-parser middleware)
+
+
+req.get
+(headerName)	Gets a specific header value
+
+
+req.ip	The IP address of the client
 
