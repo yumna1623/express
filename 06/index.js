@@ -36,6 +36,17 @@ app.get('/', (req, res) => {
 app.get('/about' , (req,res) =>{
     res.render("about")
 })
+
+// handling error----------------------------------
+
+// app.get('/new' , (req,res) =>{
+//     // const data = "data"
+//     try {
+//         res.json({data}).status(200)
+//     } catch (error) {
+//         res.json({name:error.name , message : error.message}).status(400)
+//     }
+// })
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
