@@ -1,0 +1,6 @@
+packages i have installed
+npm i express
+cors
+cookie-parser
+mongoose
+dotenv
