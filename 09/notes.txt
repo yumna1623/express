@@ -1,0 +1,14 @@
+npm init -y
+npm i express for mkaing server
+index.js
+node index.js but in json file write    "dev": "nodemon  src/index.js"
+
+npm i nodemon -D // 
+
+npm i 
+mongoose  // a bridge to connect out mongodb and make schema
+mongodb
+
+npm i dotenv // for getting that url of mongodb from .env
+
+
