@@ -1,0 +1,43 @@
+/* src/components/ProductList.css */
+.product-list-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.filter {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filter label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.filter select {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+  background-position: right 10px center;
+  background-size: 16px;
+}
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
